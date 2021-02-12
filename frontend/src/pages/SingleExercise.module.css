@@ -1,0 +1,22 @@
+.tabsContainer{
+    height: '50px';
+    width: '100%';
+    background-color: 'white';
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+}
+
+.tab{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-left: solid 1px white;
+    cursor: pointer;
+}
+
+.tab:first-child{
+    border: none;
+}

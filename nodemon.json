@@ -1,0 +1,7 @@
+{
+    "env": {
+        "DB_USER": "LimeBase",
+        "DB_PASSWORD": "hns1aqqDwmqiE4kI",
+        "DB_NAME": "routines"
+    }
+}

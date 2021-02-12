@@ -1,0 +1,45 @@
+.logsContainer{
+    display: none;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+    overflow: auto;
+    /* Utan höjd scrollar denna nog aldrig. Var scrolla? */
+}
+
+.itemContainer{
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+    overflow: auto;
+}
+
+.logsContainer table{
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.logsContainer th{
+    font-size: 0.9em;
+}
+
+.logsContainer hr{
+    width: 100%;
+}
+
+.logsContainer td{
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+.logsContainer tr{
+    height: 100%;
+    width: 100%;
+}
+
+.logsContainer tr:first-child td{
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 75px;
+    /* border-bottom: solid 1px white; */
+    
+}
+
+.textContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    margin: 10px 40px;
+    white-space: pre-line;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.triangleUp{
+    background-image: url('../images/Arrow.png');
+    transform: rotate(-90deg);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.triangleDown{
+    background-image: url('../images/Arrow.png');
+    transform: rotate(90deg);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+textarea{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 20px;
+    width: 100%;
+    height: 8em;
+    border: none;
+    margin: 0px;
+}

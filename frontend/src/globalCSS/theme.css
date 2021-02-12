@@ -1,0 +1,8 @@
+:root{
+    --transparentWhite: rgba(255, 255, 255, 0.45);
+    --darkerOrange: rgba(236, 114, 0, 0.87);
+    --darkOrange: rgba(255, 144, 0, 0.87);
+    --orange:  rgba(255, 168, 0, 0.87);
+    --gradientLightOrange: linear-gradient(to right, var(--darkOrange), var(--orange), var(--darkOrange)); 
+    --gradientDarkOrange: linear-gradient(to right, var(--darkerOrange), var(--darkOrange), var(--darkerOrange)); 
+  }

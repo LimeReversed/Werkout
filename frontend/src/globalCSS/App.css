@@ -1,0 +1,107 @@
+@import './theme.css';
+/* @font-face {
+  font-family: "Black Ops One";
+  src: url('../fonts/BlackOpsOne-Regular.ttf');
+} */
+
+@font-face {
+  font-family: "Racing Sans";
+  src: url('../fonts/RacingSansOne-Regular.ttf');
+}
+
+body{
+  margin: 0px;
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Racing Sans', Calibri, sans-serif;
+}
+
+.AppDimensions {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  grid-template-rows: 75px auto;
+  grid-template-columns: auto;
+  
+  overflow: hidden;
+  background-image: url('../images/woman_back_dark.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.AppContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  height: 100%;
+  width: 100vw;
+  overflow: auto;
+}
+
+.contentContainer{
+  display: grid;
+  height: 100%;
+  width: 100vw;
+  margin: 0px;
+  grid-template-rows: auto 75px;
+  grid-template-columns: auto;
+  overflow: hidden;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.navBar{
+  background-color: var(--transparentWhite);
+  /* border-bottom: solid 1px white; */
+}
+
+.editBar{
+  background-color: var(--transparentWhite);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* border-top: solid 1px white; */
+}
+
+.firstColumn{
+  grid-column: 1;
+}
+
+.secondColumn{
+  grid-column: 2;
+}
+
+.thirdColumn{
+  grid-column: 3;
+}
+
+.firstRow{
+  grid-row: 1;
+  width: 100vw;
+  overflow: auto;
+}
+
+.secondRow{
+  grid-row: 2;
+  width: 100vw;
+}
+/* Landscapet */
+/* @media screen and (min-width: 600px) 
+  and (orientation: landscape) {
+
+    .AppDimensions {
+      width: 800px;
+      margin: auto;
+      
+    }
+
+} */
+

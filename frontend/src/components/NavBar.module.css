@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: 75px auto 75px;
+    height: 100%;
+    width: 100vw;
+    font-size: x-large;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger !important;
+}
+
+.triangleLeft {
+    /* background-image: url('../images/Arrow.png');
+    transform: rotate(180deg); */
+    cursor: pointer;
+
+  }
+
+  .triangleRight {
+    background-image: url('../images/Arrow.png');
+    cursor: pointer;
+  }
+
+  .logOut {
+    background-image: url('../images/Logout.png');
+    cursor: pointer;
+  }

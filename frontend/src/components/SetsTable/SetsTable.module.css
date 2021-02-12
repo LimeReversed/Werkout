@@ -1,0 +1,61 @@
+.container{
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+    overflow: auto;
+}
+
+table{
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+hr{
+    width: 100%;
+}
+
+td{
+    font-size: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+tr{
+    height: 100%;
+    width: 100%;
+}
+
+tr:first-child td{
+    margin-top: 20px;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    border: none;
+}
+
+.button{
+    margin-top: 30px;
+    width: 30%;
+    height: 60px;
+    font-size: larger;
+    background-color: white;
+}
+
+.logButton{
+    height: 100%;
+    background-image: var(--gradientLightOrange);
+    cursor: pointer;
+
+}
+
+.selected {
+    /* background-color: green; */
+    border: solid 1px white;
+}
+

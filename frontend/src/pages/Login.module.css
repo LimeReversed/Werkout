@@ -1,0 +1,57 @@
+@import url('../globalCSS/theme.css');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 600px;
+    width: 90%;
+}
+
+.input {
+    max-width: 600px;
+    width: 100%;
+    font-size: 18px;
+    height: 50px !important;
+    border: none;
+}
+
+.button{
+    font-size: 20px;
+    width: 100% !important;
+    background-color: unset;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: skew(25deg);
+}
+
+.container > *{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonContainer{
+    background-image: var(--gradientLightOrange);
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.buttonContainer:last-child{
+    margin-right: 0px;
+}
+
+.buttonSetContainer{
+    transform: skew(-25deg);
+    max-width: 600px;
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
